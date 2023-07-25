@@ -21,7 +21,7 @@ param enforceAzureDefenderAutoDeployPolicies bool = true
 param enableMicrosoftDefenderForCloud bool = true
 
 @description('networkWatcherRG often times already exists in a subscription. Empty string will result in using the default resource location.')
-param networkWatcherRGRegion string = 'NetworkWatcherRG'
+param networkWatcherRGRegion string = ''
 
 /*** VARIABLES ***/
 
